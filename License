@@ -1,0 +1,247 @@
+FONCL-Ai v1.0 License (Full Text)
+
+(The FONCL v1.0 license text is identical to previous versions and should be included in full here.)
+
+Friendly Open Non-Commercial License (FONCL) v1.0
+
+Copyright © [YEAR] [AUTHOR]
+
+Hi there! This license is designed to keep this software free for people like you—students, hobbyists, non-profits, and anyone building something cool without a big budget. If you contribute code, you get special benefits. If you're a large company looking to use this commercially, please reach out—I'm happy to work something out. Now, the formal terms:
+
+0. Definitions
+
+"The Program" refers to the software licensed under this License.
+
+"Code" means source code containing substantive logic. Excluded: comments, blank lines, imports, configuration files, boilerplate, and auto-generated code.
+
+"Core Code" means portions of the Program I designate as fundamental, which may receive higher weighting when calculating contribution percentages. Weighting scheme is documented in the repository.
+
+"Contributor" means anyone whose code has been accepted into the Program's main branch.
+
+"Contribution Percentage" means the percentage of total Code in the main branch contributed by a Contributor, with Core Code weighted as I designate.
+
+"Non-Profit Organization" means an organization operating exclusively for educational, charitable, scientific, or religious purposes, distributing no profits to members or directors.
+
+"Low-Income Individual" means a natural person whose total annual income from all sources is less than One Hundred Twenty Thousand United States Dollars ($120,000 USD). Income means gross income before taxes, calculated using the average exchange rate for the calendar year in which use occurs (or the rate on the date of first use if the use period is less than one year). Net worth, assets, savings, investments, and real estate holdings are not considered.
+
+"Commercial Use" means use directed toward commercial advantage or monetary compensation, including but not limited to:
+
+· Use by any for-profit entity for internal operations.
+· Providing services to third parties for a fee.
+· Embedding in a physical product for sale.
+· Any use where revenue or income is derived as a result of the Program's functionality.
+
+1. Source Code and Attribution
+
+The Program's source code must remain open. You must retain all copyright notices and attributions. Redistribution, modified or unmodified, requires:
+
+· A copy of this License.
+· All copyright notices intact.
+· Prominent attribution to the original author ([AUTHOR]) in documentation, source code comments, or user interface.
+
+2. Permitted Use (Exemptions)
+
+The following are permitted to use the Program for any purpose, including Commercial Use, without seeking additional permission:
+
+· Non-Profit Organizations, for any purpose.
+· Low-Income Individuals, for their own use (not for use by any business or organization they may own, control, or be affiliated with).
+
+All others require compliance with Section 3 (Commercial Use) or Section 4 (Contributor Exemptions).
+
+A note on honesty: This license operates on trust. I believe people are generally good and honest. If you qualify for an exemption, please act accordingly. If you're unsure, just ask. Thank you for being a good human. 🫶
+
+3. Commercial Use
+
+If you do not qualify for an exemption under Section 2 or Section 4, Commercial Use of the Program requires a commercial license from the Copyright Holder. Contact information is in the repository metadata.
+
+If you are unsure whether you qualify for an exemption, you are encouraged to contact the author ([AUTHOR]) to ask. I'm genuinely happy to help figure this out—just reach out. 🫶
+
+Automatic Temporary License: If the Copyright Holder does not provide contact information in the repository, or if the Copyright Holder fails to respond to a licensing inquiry within ninety (90) days of receipt, the inquiring party shall automatically receive a temporary, non-exclusive, worldwide, royalty-free license to use the Program for Commercial Use. This temporary license:
+
+· Permits Commercial Use up to an annual revenue or income limit of Three Hundred Thousand United States Dollars ($300,000 USD).
+· Is valid for a period of three (3) months from the date the response was due.
+· Terminates immediately upon the Copyright Holder's response, unless the parties agree otherwise in writing.
+· Does not apply to any party that has previously received a response from the Copyright Holder regarding a licensing inquiry.
+
+Good-Faith Requirement for Temporary License: The automatic temporary license is intended for genuine, good-faith inquiries where the inquiring party makes reasonable efforts to reach the Copyright Holder using correct and accurate contact information. If the inquiring party intentionally provides incorrect contact information, uses invalid addresses, or otherwise acts in bad faith to trigger the temporary license, the temporary license shall not apply, and the inquiring party may be held liable for unauthorized Commercial Use. The inquiring party bears the responsibility of ensuring that their contact attempts are directed to the correct addresses provided in the repository.
+
+Reasonable Efforts Requirement: Before invoking the automatic temporary license, the inquiring party must make reasonable, good-faith efforts to contact the Copyright Holder using at least three distinct communication methods (such as, but not limited to: a public issue on the repository's issue tracker, a direct email to any address provided, a message via any chat platform linked in the repository, or a comment on the repository's discussion forum). The inquiring party shall retain records of these contact attempts, including dates, methods used, and any responses received, and shall make such records available to the Copyright Holder upon request.
+
+4. Contributor Commercial Exemptions
+
+Any Contributor may request a perpetual, worldwide, royalty-free license to use the Program for any purpose, including Commercial Use, subject to the following annual income limits based on their Contribution Percentage:
+
+Contribution Percentage Maximum Annual Income for Exemption
+≥ 1% but < 5% $170,000 USD
+≥ 5% but < 10% $250,000 USD
+≥ 10% but < 15% $310,000 USD
+≥ 15% but < 20% $460,000 USD
+≥ 20% but < 25% $610,000 USD
+≥ 25% $1,010,000 USD
+≥ 90% ∞ (seriously, at this point just take it—you are the project)
+
+How to claim this exemption: If you believe you have reached the required Contribution Percentage for a continuous period of ninety (90) days, simply contact the Original Author ([AUTHOR]) and ask. I will verify your contribution percentage (using the repository's history and the Core Code weighting rules documented in the repository) and, if you qualify, grant you the exemption in writing. Once granted, the exemption is permanent, even if your Contribution Percentage later decreases. The exemption applies at the highest threshold you have achieved.
+
+A note on trust: This process relies on honest communication. I trust that you will only request an exemption if you genuinely believe you have met the threshold. If you're unsure, just ask—I'm happy to check for you. Thank you for being honest. 🫶
+
+For individual Contributors, "annual income" means total personal income from all sources before taxes. For corporate Contributors, "annual income" means total gross revenue.
+
+Contribution Percentage is calculated with Core Code weighting as defined in Section 0.
+
+5. Library Exception (Semi-Copyleft)
+
+a. General Rule: If you use the Program as a library, framework, or dependency in your own software project, and you do not modify the Program itself, then your use is governed as follows:
+
+b. Standard Package Manager Dependency (Full Exception): If you obtain the Program through a standard package manager (such as, but not limited to: npm for JavaScript/Node.js, PyPI for Python, crates.io for Rust, Maven Central for Java, RubyGems for Ruby, or similar officially recognized package repositories), and you do not modify the Program itself, and you declare the Program as a dependency in your project's standard dependency manifest file (such as package.json, requirements.txt, Cargo.toml, pom.xml, Gemfile, or similar), then:
+
+· You are not required to license your own software under this License.
+· You are not required to comply with the non-commercial restrictions of Section 2 and Section 3. You may use the Program for any purpose, including Commercial Use, without seeking a commercial license from the Copyright Holder.
+· You are not required to comply with the copyleft provisions of Section 6(a).
+· Your only obligations are:
+  · Retain all copyright notices and attributions as required by Section 1.
+  · Clearly document in your project's documentation or manifest that your project depends on the Program, and include the name of the Original Author ([AUTHOR]) and a link to the Program's repository.
+
+c. Direct or Manual Dependency (Full FONCL Terms Apply): If you obtain the Program by any other means (such as directly copying the source code into your project, vendoring the code, downloading it manually from a repository, or including it without using a package manager's dependency declaration), then:
+
+· The Library Exception in Section 5(b) does not apply.
+· You are subject to the full terms of this License, including:
+  · The non-commercial restrictions of Section 2 and Section 3 (unless you qualify for an exemption).
+  · The copyleft requirements of Section 6(a), which require you to license your entire modified work under this License if you distribute it.
+· For the avoidance of doubt: if you manually add the Program to your project's source tree or vendor directory without declaring it as a package manager dependency, you are considered to have incorporated the Program into your work and must comply with all terms of this License.
+
+d. Limitation on Author's Use of This Exception: The Original Author ([AUTHOR]) may not invoke or benefit from the Library Exception in Section 5(b) if at least seventy-five percent (75%) of Contributors with a Contribution Percentage of twenty-five percent (25%) or greater object in writing to the Original Author's use of this exception for a specific project or purpose. For the avoidance of doubt:
+
+· Only Contributors with a Contribution Percentage of twenty-five percent (25%) or greater at the time of objection are eligible to participate in this objection.
+· If there is only one such Contributor, that Contributor alone may exercise this objection power (representing 100% of eligible Contributors).
+· The objection must be submitted in writing (such as via a formal issue in the repository or email) and must clearly state the specific use or project to which the objection applies.
+· If the required threshold is met, the Original Author shall not use the Library Exception in Section 5(b) for the specified use or project. This restriction applies only to the Library Exception in Section 5(b) and does not affect any other rights or provisions of this License, including the Original Author's right to grant additional permissions under Section 12. This restriction also does not limit any other user's rights under Section 5(b).
+
+e. Malicious Use Prohibition: Regardless of any other provision, you may not use the Program for any purpose intended to harm, exploit, or act against the interests of the original author ([AUTHOR]) or the broader community of contributors. This includes, but is not limited to:
+
+· Deliberately circumventing the spirit of the non-commercial terms.
+· Using the Program to build competing services specifically targeting users of the original Program in a predatory manner.
+· Any use that the author reasonably determines to be malicious.
+
+The author reserves the right to revoke your rights under this License for malicious use, in addition to any other remedies available.
+
+6. Copyleft, ShareAlike, and License Compatibility
+
+a. Copyleft / ShareAlike (Strong Copyleft): If you distribute a modified version of the Program (or incorporate the Program into a larger work in a way that modifies it), you must license the entire modified work under this License. You must inform recipients that the source code is available and that they are subject to these terms.
+
+This strong copyleft requirement is mandatory and applies to all uses of the Program, except in the following two cases:
+
+· Package Manager Dependency Exception: As provided in Section 5(b), when the Program is used as an unmodified dependency obtained through a standard package manager and declared in a manifest file, the copyleft requirements do not apply.
+· Author-Granted Permission Exception: As provided in Section 11, the Original Author may grant additional permissions that override the copyleft requirements.
+
+For all other uses—including manual copying of code, vendoring, forking, modifying, or embedding the Program in a larger work—the strong copyleft terms of this Section 6(a) apply in full force.
+
+The Library Exception in Section 5 governs unmodified use as a dependency.
+
+b. Permissive-Only Contributions: The Program may contain files contributed under permissive open source licenses (such as MIT License, BSD 2-Clause, BSD 3-Clause, or Apache License 2.0). Files under these licenses remain governed by their respective license terms. The Program does not accept contributions under copyleft licenses (such as GPL, LGPL, AGPL, or MPL) unless explicitly approved in writing by the Original Author ([AUTHOR]).
+
+c. No Loophole: The presence of permissively licensed files does not create a loophole to circumvent this License. Specifically:
+
+· If you fork or redistribute the Program, the overall distribution is governed by this License, even if individual files carry permissive licenses.
+· You may not use permissively licensed files as a mechanism to avoid the restrictions of this License on the FONCL-licensed portions. For example, if a permissively licensed file calls into or depends upon FONCL-licensed code, your use of the FONCL-licensed code remains subject to the terms of this License.
+· If you extract and use a permissively licensed file in isolation (outside the context of the Program), that file may be used in accordance with its own license. However, if you use that file as part of a larger work that includes FONCL-licensed code, the FONCL-licensed code remains governed by this License.
+
+d. Designation of License: Contributors may designate the license for their contributed files by including a standard license header or SPDX-License-Identifier in the file. Permissive licenses are welcome. If a Contributor submits a file without an explicit license designation, the file shall be considered governed by this License.
+
+e. No Re-licensing of Permissive Code: Nothing in this License grants the Original Author ([AUTHOR]) or any Contributor the right to re-license permissively licensed files under this License without the explicit consent of the copyright holder(s) of those files. The Original Author's right to grant additional permissions under Section 11 applies only to files governed by this License.
+
+7. Corporate Contributions and Ownership
+
+a. Individual vs. Corporate Contributions: When a contribution is made to the Program, the copyright ownership of that contribution belongs as follows:
+
+· If the contribution is made by an individual using their personal GitHub account (or other version control system account), and the contribution is made outside of working hours or without direction from their employer, the contribution belongs solely to that individual Contributor.
+· If the contribution is made using a corporate-managed account (such as a company's GitHub organization or an email address associated with a company domain), and the contribution is made as part of the Contributor's employment duties or at the direction of the employer, then the contribution is considered a "Corporate Contribution."
+
+b. Corporate Contribution Ownership: For Corporate Contributions, the copyright is jointly owned by the individual Contributor and their employer. Both the individual Contributor and the employer are considered "Contributors" under this License, and both may exercise the rights granted to Contributors under Section 4 (Contributor Commercial Exemptions), provided that the employer's annual gross revenue is used for the income limits in Section 4.
+
+c. Voluntary Personal Contributions from Corporate Employees: If an individual who happens to be employed by a large company makes a contribution voluntarily, on their own time, using their personal account, without being asked or directed by their employer, and the contribution is not related to their work duties, then:
+
+· The contribution belongs solely to the individual Contributor.
+· The employer has no claim of ownership over the contribution.
+· The employer cannot be held responsible for the Contributor's actions under this License.
+· The individual Contributor's personal income (not the employer's revenue) is used for the income limits in Section 4.
+
+d. Burden of Proof: If there is a dispute about whether a contribution is a Corporate Contribution or a voluntary personal contribution, the burden of proof rests on the party claiming it is a Corporate Contribution. The use of a corporate email address or corporate GitHub account creates a rebuttable presumption that the contribution is a Corporate Contribution. The Contributor may rebut this presumption by providing evidence that the contribution was made voluntarily, outside of working hours, and without employer direction.
+
+e. No Retroactive Corporate Claims: A company may not retroactively claim ownership over contributions made by its employees prior to their employment or contributions made entirely outside of work. Any such retroactive claims are void under this License.
+
+8. Succession
+
+Upon my death, all rights to the Program (including exclusive commercial licensing authority) transfer automatically to the Contributor with the highest Contribution Percentage at the time of my death. In case of a tie, rights transfer to the tied Contributor with the earliest accepted contribution.
+
+9. No Warranty
+
+THE PROGRAM IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.
+
+10. Limitation of Liability
+
+IN NO EVENT WILL ANY COPYRIGHT HOLDER BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM.
+
+11. Termination
+
+If you violate this License, your rights terminate automatically. If your violation is unintentional, you may cure it within thirty (30) days of becoming aware of the violation, after which your rights are restored.
+
+12. Author's Right to Grant Additional Permissions
+
+Notwithstanding any other provision of this License, the Original Author ([AUTHOR]) reserves the right, at their sole discretion, to grant additional permissions to all users of the Program. Such permissions make the terms of this License more permissive and apply to all copies of the Program, including all Contributions, taking effect immediately upon being documented in the repository. The Original Author may choose to:
+
+· Grant Full Commercial and Closed-Source Rights: Grant a worldwide, perpetual, royalty-free permission to all users to use, modify, and distribute the Program for any purpose, including commercial use and closed-source distribution, without restriction. This permission renders the non-commercial and copyleft terms of this License inapplicable, effectively making the Program freely usable under terms equivalent to the MIT License.
+· Grant Commercial Rights with Copyleft: Grant a worldwide, perpetual, royalty-free permission to all users to use the Program for commercial purposes, provided that any modified versions distributed or made available as a service remain open source under the terms of the GNU Affero General Public License v3.0 (AGPL-3.0) or any later version.
+· Grant Any Other Additional Permissions: Grant any other additional permissions that make this License more permissive, as the Original Author sees fit.
+
+If the Original Author exercises this right, the additional permissions shall apply to the Program going forward. Contributors agree that such additional permissions may be granted for their Contributions, and no further consent from Contributors is required. This provision is intended to give the Original Author the flexibility to make the Program more open as the Project evolves. The Original Author may not, under any circumstances, impose additional restrictions beyond those already present in this License, nor may they revoke the rights granted under this License.
+
+Any commercial licenses granted prior to such additional permissions remain valid and are not superseded by this Section. Licensees holding commercial licenses may choose to operate under either the commercial license terms or the additional permissions, at their option.
+
+13. Automatic Transition to AGPL Upon Abandonment
+
+If the Original Author ([AUTHOR]) has not:
+
+· Released a new version of the Program (including any minor or major update), and
+· Responded to any licensing inquiry or other communication directed to the contact information provided in the repository, and
+· Made a public statement regarding the ongoing maintenance or licensing of the Program,
+
+for a continuous period of five (5) years, then upon the expiration of such five-year period, this License shall automatically terminate with respect to the Program, and the Program shall thereafter be governed by the terms of the GNU Affero General Public License v3.0 (AGPL-3.0) or any later version, as published by the Free Software Foundation.
+
+This transition applies to all copies of the Program, including all Contributions, and is intended to ensure that the Program does not become orphaned or abandoned under a restrictive license. Upon this transition, all rights and obligations under this License cease, and the terms of the AGPL-3.0 apply exclusively.
+
+Exception for Existing Commercial Licenses: Any commercial licenses or additional permissions granted by the Original Author ([AUTHOR]) under Section 12 prior to the transition shall remain in full force and effect. Recipients of such licenses retain the rights granted to them under those separate agreements, regardless of the transition to AGPL. The AGPL transition applies only to users who were operating under this License, not to licensees who obtained separate commercial permissions.
+
+The Original Author may prevent this transition at any time before it occurs by:
+
+· Releasing a new version of the Program,
+· Responding to any pending inquiry, or
+· Making a public statement in the repository indicating that the Program remains under active maintenance.
+
+14. Artificial Intelligence Training Restriction
+
+Notwithstanding any other provision of this License, you may not use the Program, in whole or in part, for the purpose of training, fine-tuning, or otherwise improving the parameters of any machine learning or artificial intelligence model without prior written permission of the Original Author ([AUTHOR]).
+
+Prohibited uses include:
+
+* Using the Program as training or fine-tuning data for any AI/ML model.
+* Using the Program for representation learning, embedding model training, or similar processes that modify model weights.
+* Using the Program to create or enhance datasets specifically intended for model training.
+
+For clarity, the following uses are explicitly permitted:
+
+* Running, executing, or deploying the Program.
+* Indexing, searching, caching, or otherwise storing the Program for retrieval purposes.
+* Static analysis, security scanning, or code review (including automated tools).
+* Evaluation or benchmarking of AI systems, provided no model training or parameter updates occur.
+* Retrieval-Augmented Generation (RAG) and similar systems where the Program is used as external reference material and not used to train model weights.
+
+The Original Author ([AUTHOR]) may grant written exceptions to this restriction at their sole discretion.
+
+Any violation of this Section constitutes a material breach and results in termination under Section 11.
+
+---
+
+P.S. I mean it—if you're building something cool and you're not a giant corporation, just reach out. I'd much rather say yes than have you stress about legalese. Go make something awesome. 🫶
+
+Note: This license is not approved by the Open Source Initiative (OSI) and does not meet the Open Source Definition because it restricts commercial use. It is a source-available license designed for non-commercial freedom with commercial licensing available separately.
+
